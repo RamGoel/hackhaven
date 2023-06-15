@@ -12,7 +12,7 @@ export const data = {
     "team": "Will Reveal Soon",
     "venue": "TL01-TL02 Kalpana Chawla Block, ABES Engineering College, Campus 1, 19th KM Stone, NH-24, Ghaziabad-201009, U.P.",
     "date": `8 July, 2023 9:00 AM`,
-    "register":`Will be opening on 15th July 2023`,
+    "register":`Will be opening on 15th June 2023`,
     "schedule": `
         12 July, 2023:              Announcement
         15 July, 2023:              Registrations
@@ -23,15 +23,6 @@ export const data = {
         8 July, 2023:               12 hr Hackathon (offline round)
     `,
     "help": `
-        gdsc:             Know about GDSC
-        abesec:           Know about ABESEC
-        about:            Know about Hackathon
-        register:         Register for the hackathon
-        prizes:           Know about prizes
-        sponsors:         Know about Sponsors
-        venue:            Know about Venue
-        date:             Know Hackathon Dates & Time
-        schedule:         Know about Schedule of Hackathon
-        team:             Know about our Team
-    `
+       Available Commands are gdsc,abesec,about,register,prizes,sponsors,venue,date,schedule & team         
+    `,
 }
