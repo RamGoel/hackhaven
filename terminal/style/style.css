@@ -165,7 +165,6 @@ pre {
 	font-family: "VT323", monospace;
 }
 #crt {
-	min-width: 80ch; /* This makes 80 monospace characters fit on the screen */
 	height: calc(80ch * 0.8);
 	font-size: max(
 		1rem,
