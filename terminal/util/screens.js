@@ -32,6 +32,7 @@ async function boot() {
 	await type(["OK.", " "]);
 	clear()
 	await pause();
+	await type(["type 'help' to get started.", " "]);
 	return main();
 }
 

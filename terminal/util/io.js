@@ -339,7 +339,14 @@ async function parse(input) {
 		clear()
 	}else if(command =='switch'){
 		window.location.href='/'
-	}else {
+	}else if(command=='register' || command=='REGISTER'){
+		setTimeout(() => {
+			// Code to be executed after 2 seconds
+			window.open('https://hackhaven.devfolio.co/', '_blank', 'noreferrer');
+		  }, 2000);
+		  
+	}
+	else {
 		if(!data[command]){
 
 			await type("Invalid command, type HELP to know commands");
