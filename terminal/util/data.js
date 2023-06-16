@@ -14,14 +14,12 @@ export const data = {
     "date": `8 July, 2023 9:00 AM`,
     "register":`Will be opening on 15th June 2023`,
     "schedule": `
-        12 July, 2023:              Announcement
-        15 July, 2023:              Registrations
-        16 July, 2023:              Call for sponsors, community partners and speakers
-        24 July, 2023:              Online round
-        30 July, 2023:              End of Online round
-        3 - 7 July, 2023:           Pre-events and webinars
-        8 July, 2023:               12 hr Hackathon (offline round)
-    `,
+    15 June, 2023:              Announcement
+    16 - 30 June, 2023:         Registrations
+    25 June, 2023:              Idea Submission Begins
+    2 July, 2023:               Teams Announcement
+    8 July, 2023:               Offline Hackathon
+`,
     "help": `
        Available Commands are gdsc,abesec,about,register,prizes,sponsors,venue,date,schedule & team         
     `,
