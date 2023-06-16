@@ -343,7 +343,8 @@ async function parse(input) {
 		setTimeout(() => {
 			// Code to be executed after 2 seconds
 			window.open('https://hackhaven.devfolio.co/', '_blank', 'noreferrer');
-		  }, 2000);
+		}, 2000);
+		await type("Loading............")
 		  
 	}
 	else {
