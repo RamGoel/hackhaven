@@ -26,14 +26,27 @@
       display: block;
     }
 
+    div {
+      -ms-overflow-style: none;
+      /* Internet Explorer 10+ */
+      scrollbar-width: none;
+      /* Firefox */
+    }
+
+    div::-webkit-scrollbar {
+      display: none;
+      /* Safari and Chrome */
+    }
+
     .w-editor .load-wrapper,
     .w-editor .cursor-w {
       display: none !important;
     }
 
-    .home-header_grid-wrapper{
+    .home-header_grid-wrapper {
       display: none;
     }
+
     #timer-box {
       display: flex;
       align-items: center;
